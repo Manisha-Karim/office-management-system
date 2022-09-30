@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Office management system</title>
+</head>
+<style>
+
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+  h1{
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 61px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgba(82, 224, 105, 0.86);
+    background-color: rgb(33, 33, 33);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    }
+
+   .btn{
+font-family: Bebas Neue;
+font-weight: 588;
+font-size: 18px;
+color: #000000;
+background-color: #20c43191;
+padding: 10px 10px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 13px;
+transition : 1081ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: lowercase;
+text-align: center;
+align-items:center
+
+}
+
+.btn:hover{
+
+transition : 1081ms;
+padding: 10px 52px;
+transform : translateY(-0px);
+background-color: #5d996f6d;
+color: #000000;
+border: none;
+}
+
+.main{
+            position:fixed;
+            top:200px;
+            left:36%;
+            width:400px;
+            background-color:white;
+            align-items:center;
+            border-radius:2%;
+
+        }
+
+
+
+
+</style>
+<body>
+<div class="content">
+<h1>
+    Office Employee Management System
+</h1>
+
+    <div class="main">
+      <a class="btn" href="/view_emp" role = "button">View All Employee</a>
+    <br>
+     <a class="btn" href="/add_emp" role="button">Add Employee</a>
+    <br>
+     <a class="btn" href="/remove_emp" role="button">Remove Employee</a>
+    <br>
+     <a class="btn" href="/filter_emp" role="button">Filter Employee</a>
+
+    </div>
+
+</div>
+</body>
+</html>
